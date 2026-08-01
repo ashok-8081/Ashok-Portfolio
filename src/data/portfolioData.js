@@ -138,7 +138,7 @@ export const portfolio = {
       "Razorpay",
     ],
 
-    github: "https://github.com/ashok-8081",
+    github: "https://github.com/ashok-8081/shopsphere",
 
     live: "https://shopsphere-frontend-puce.vercel.app/",
   },
@@ -151,9 +151,9 @@ export const portfolio = {
 
       tech: ["Node.js", "Express", "Groq", "REST API", "JavaScript"],
 
-      github: "https://github.com/ashok-8081",
+      github: "https://github.com/ashok-8081/ai-agent-pipeline",
 
-      live: "#",
+      live: "https://ai-agent-pipeline-mu.vercel.app/",
     },
 
     {
@@ -166,7 +166,7 @@ export const portfolio = {
 
       github: "https://github.com/ashok-8081",
 
-      live: "https://ai-agent-pipeline-mu.vercel.app/",
+      live: "#",
     },
   ],
   leetcode: "https://leetcode.com/u/Ashok8081d/",

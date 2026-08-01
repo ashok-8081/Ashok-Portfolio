@@ -1,6 +1,6 @@
 import { motion, useScroll } from "framer-motion";
 
-const ScrollProgress = () => {
+const ScrollProgres = () => {
   const { scrollYProgress } = useScroll();
 
   return (
@@ -14,4 +14,4 @@ const ScrollProgress = () => {
   );
 };
 
-export default ScrollProgress;
+export default ScrollProgres;

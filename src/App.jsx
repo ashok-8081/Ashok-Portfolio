@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Loader from "./components/common/Loader";
 import Hero from "./components/Hero/Hero";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import TechStack from "./components/TechStack/TechStack";
 import FeaturedProject from "./components/FeaturedProject/FeaturedProject";
