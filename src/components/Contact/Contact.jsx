@@ -4,7 +4,7 @@ import { SiLeetcode } from "react-icons/si";
 
 import { MdEmail } from "react-icons/md";
 
-import { portfolio } from "../../data/portFolioData";
+import { portfolio } from "../../data/portfolioData";
 
 const Contact = () => {
   return (

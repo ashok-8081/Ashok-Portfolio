@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin, FaArrowRight } from "react-icons/fa";
 import { MdEmail, MdOutlineFileDownload } from "react-icons/md";
 
 import profile from "../../assets/images/profile.jpg";
-import { portfolio } from "../../data/portFolioData";
+import { portfolio } from "../../data/portfolioData";
 import { SiLeetcode } from "react-icons/si";
 import reactLogo from "../../assets/icons/react.svg";
 import nodeLogo from "../../assets/icons/nodejs.svg";

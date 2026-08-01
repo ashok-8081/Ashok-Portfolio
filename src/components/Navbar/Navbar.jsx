@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { HiOutlineMenuAlt3, HiOutlineX } from "react-icons/hi";
 
-import { portfolio } from "../../data/portFolioData";
+import { portfolio } from "../../data/portfolioData";
 
 const Navbar = () => {
   const [active, setActive] = useState("home");
@@ -39,7 +39,7 @@ const Navbar = () => {
     };
   }, []);
 
-  
+
   return (
     <motion.header
       initial={{ y: -80 }}
