@@ -12,6 +12,9 @@ import reactLogo from "../../assets/icons/react.svg";
 import nodeLogo from "../../assets/icons/nodejs.svg";
 import mongoLogo from "../../assets/icons/mongodb.svg";
 import javaLogo from "../../assets/icons/java.svg";
+import gitLogo from "../../assets/icons/git.svg";
+import tailwindLogo from "../../assets/icons/tailwind.svg";
+import githubLogo from "../../assets/icons/github.svg";
 
 const Hero = () => {
   return (
@@ -295,18 +298,58 @@ const Hero = () => {
                 Software Engineering Internships
               </p>
             </motion.div>
+            {/* Floating Tech Logos */}
+
+            <motion.img
+              src={reactLogo}
+              className="absolute -top-6 left-24 w-14 opacity-90"
+              animate={{ y: [0, -15, 0] }}
+              transition={{ duration: 5, repeat: Infinity }}
+            />
+
+            <motion.img
+              src={nodeLogo}
+              className="absolute top-20 -right-8 w-14 opacity-90"
+              animate={{ y: [0, 15, 0] }}
+              transition={{ duration: 4.5, repeat: Infinity }}
+            />
+
+            <motion.img
+              src={mongoLogo}
+              className="absolute bottom-16 -left-10 w-14 opacity-90"
+              animate={{ y: [0, -12, 0] }}
+              transition={{ duration: 6, repeat: Infinity }}
+            />
+
+            <motion.img
+              src={javaLogo}
+              className="absolute bottom-10 right-8 w-14 opacity-90"
+              animate={{ y: [0, 18, 0] }}
+              transition={{ duration: 5.5, repeat: Infinity }}
+            />
+
+            <motion.img
+              src={tailwindLogo}
+              className="absolute top-52 -left-16 w-12 opacity-80"
+              animate={{ x: [0, 10, 0] }}
+              transition={{ duration: 5, repeat: Infinity }}
+            />
+
+            <motion.img
+              src={gitLogo}
+              className="absolute top-1/2 -right-16 w-12 opacity-80"
+              animate={{ x: [0, -10, 0] }}
+              transition={{ duration: 4.5, repeat: Infinity }}
+            />
+
+            <motion.img
+              src={githubLogo}
+              className="absolute -top-10 right-32 w-12 opacity-80"
+              animate={{ y: [0, -15, 0] }}
+              transition={{ duration: 5, repeat: Infinity }}
+            />
           </motion.div>
         </div>
-      </div>
-
-      <div className="absolute -bottom-20 left-1/2 flex -translate-x-1/2 gap-4 rounded-full bg-slate-900/80 px-6 py-3 backdrop-blur-lg">
-        <img src={reactLogo} alt="React" className="h-8 w-8" />
-
-        <img src={nodeLogo} alt="Node" className="h-8 w-8" />
-
-        <img src={mongoLogo} alt="MongoDB" className="h-8 w-8" />
-
-        <img src={javaLogo} alt="Java" className="h-8 w-8" />
       </div>
 
       {/* =============================== */}
