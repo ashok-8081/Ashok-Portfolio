@@ -164,9 +164,9 @@ export const portfolio = {
 
       tech: ["React", "Tailwind", "Framer Motion"],
 
-      github: "https://github.com/ashok-8081",
+      github: "https://github.com/ashok-8081/ashok-portfolio",
 
-      live: "#",
+      live: "https://ashok-portfolio-tgn3.vercel.app/",
     },
   ],
   leetcode: "https://leetcode.com/u/Ashok8081d/",
