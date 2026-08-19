@@ -40,7 +40,7 @@ export const portfolio = {
   ],
   stats: [
     {
-      title: "250+",
+      title: "100+",
       subtitle: "DSA Problems",
     },
     {
