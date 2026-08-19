@@ -67,7 +67,7 @@ export const portfolio = {
 
       "MERN Stack Developer",
 
-      "250+ DSA Problems Solved",
+      "100+ DSA Problems Solved",
 
       "Open to Software Engineering Internships",
     ],
